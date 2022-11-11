@@ -1,0 +1,9 @@
+.banner{
+    display: none; /* nechceme, aby byl vidět na mobilu*/
+}
+
+@media (min-width: 600px) {
+    .banner{
+        display: block;
+    }
+}

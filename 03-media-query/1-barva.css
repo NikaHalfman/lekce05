@@ -1,0 +1,19 @@
+.barva{
+    background-color: chocolate;
+}
+
+@media(max-width:500px) {
+    .barva{
+        background-color: red;
+    }
+}/*když nenapíšeme nic(screen, print), je tam defaultně all, toto media query se aktivuje, jakmile bude šířka 0-500px*/
+
+@media(min-width: 500px) and (max-width:800px){
+    .barva{
+        background-color: blue;
+    }
+    
+    h1{
+        font-size: 90px;
+    }
+}
